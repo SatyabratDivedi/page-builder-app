@@ -59,7 +59,7 @@ const Page = () => {
 				return {
 					type: e.target.value,
 					props: allComp.find((comp) => comp.type === e.target.value)?.props,
-				}
+				} as Components
 			})
 		})
 	}
